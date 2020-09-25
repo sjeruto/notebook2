@@ -1,0 +1,3 @@
+"0","library(readxl)                     #we need to load this tidyverse package"
+"0","carPrice<- read_excel(""kuiper.xls"") #now we just import the dataset and store it "
+"0","carPrice"

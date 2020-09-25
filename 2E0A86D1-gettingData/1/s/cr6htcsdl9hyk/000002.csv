@@ -1,0 +1,20 @@
+"0","#reading in the data using a very easy to use command from the readr package:"
+"0","titanicData <- read_csv(""http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic3.csv"")"
+"2","Parsed with column specification:
+cols(
+  pclass = col_double(),
+  survived = col_double(),
+  name = col_character(),
+  sex = col_character(),
+  age = col_double(),
+  sibsp = col_double(),
+  parch = col_double(),
+  ticket = col_character(),
+  fare = col_double(),
+  cabin = col_character(),
+  embarked = col_character(),
+  boat = col_character(),
+  body = col_double(),
+  home.dest = col_character()
+)
+"

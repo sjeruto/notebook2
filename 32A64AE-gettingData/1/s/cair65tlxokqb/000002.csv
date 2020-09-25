@@ -1,0 +1,2 @@
+"0","html <- read_html(""https://www.uts.edu.au/about/university/facts-figures-and-rankings"")"
+"0","UTS.data <- html_nodes(html,""td , td p , #block-system-main strong , th"")"

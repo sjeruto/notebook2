@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1596852651808.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "86A41CAF",
+    "lastKnownWriteTime" : 15,
+    "last_content_update" : 1596852651808,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A7B2573F",
+        "caption" : "kuiper",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=kuiper&cache_key=A7B2573F",
+        "displayedObservations" : 804,
+        "environment" : "",
+        "expression" : "kuiper",
+        "object" : "kuiper",
+        "preview" : 0,
+        "totalObservations" : 804,
+        "variables" : 12
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

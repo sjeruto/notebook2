@@ -1,0 +1,21 @@
+"0","#knitr::opts_chunk$set(echo = FALSE)"
+"0","library(tidyverse)"
+"2","Loading tidyverse: ggplot2
+Loading tidyverse: tibble
+Loading tidyverse: tidyr
+Loading tidyverse: readr
+Loading tidyverse: purrr
+Loading tidyverse: dplyr
+"
+"2","Conflicts with tidy packages ------------------------------------------
+"
+"2","filter(): dplyr, stats
+lag():    dplyr, stats
+"
+"2","Warning message:
+"
+"2","In scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  :"
+"2","
+ "
+"2"," EOF within quoted string
+"

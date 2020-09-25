@@ -1,0 +1,2 @@
+"0","#reading in the data using a very easy to use command from the readr package:"
+"0","titanicData <- read_csv(""http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic3.csv"")"

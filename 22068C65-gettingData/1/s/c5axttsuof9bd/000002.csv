@@ -1,0 +1,4 @@
+"0","tidyUTS <- html_table(UTS.table) %>%"
+"0","  gather(`2017`,`2018`,`2019`, key=""year"", value=""enrolled"")  %>%"
+"0","  mutate(enrolled=parse_number(enrolled),year=parse_integer(year))"
+"0","tidyUTS"

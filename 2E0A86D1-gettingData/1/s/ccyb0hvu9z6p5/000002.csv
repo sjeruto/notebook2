@@ -1,0 +1,22 @@
+"0","url"
+"1","[1]"
+"1"," ""http://stats.oecd.org/restsdmx/sdmx.ashx/GetData/EAG_NEAC/AUS.L0T2+L0+L1_T_SC3T4+L2_T_SC2+L2_T_SC3T4+L3_T_SC2+L3T4+L3+L4+L5T8+L5+L6+L7+L8.T+F+M.Y25T64.T.VALUE+SE.NEAC_SHARE_EA/all?startTime=9999&endTime=9999"""
+"1","
+"
+"0","eag.neac_dsd <- readSDMX(#we are going to use the same parameters as we filtered on to get the direct url - make sure you can see how it all came out"
+"0","  providerId =""OECD"", "
+"0","  resource =""data"", "
+"0","  flowRef =""EAG_NEAC"","
+"0","  key =""/AUS.L0T2+L0+L1_T_SC3T4+L2_T_SC2+L2_T_SC3T4+L3_T_SC2+L3T4+L3+L4+L5T8+L5+L6+L7+L8.T+F+M.Y25T64.T.VALUE+SE.NEAC_SHARE_EA/all"", "
+"0","  key.mode =""SDMX"","
+"0","  dsd =TRUE) #this is where we say we want the data definition"
+"2","-> Fetching 'http://stats.oecd.org/restsdmx/sdmx.ashx/GetData/EAG_NEAC//AUS.L0T2+L0+L1_T_SC3T4+L2_T_SC2+L2_T_SC3T4+L3_T_SC2+L3T4+L3+L4+L5T8+L5+L6+L7+L8.T+F+M.Y25T64.T.VALUE+SE.NEAC_SHARE_EA/all/all'
+"
+"2","-> DSD ref identified in dataset = 'EAG_NEAC'
+"
+"2","-> Attempt to fetch & bind DSD to dataset
+"
+"2","-> Fetching 'http://stats.oecd.org/restsdmx/sdmx.ashx/GetDataStructure/EAG_NEAC'
+"
+"2","-> DSD fetched and associated to dataset!
+"

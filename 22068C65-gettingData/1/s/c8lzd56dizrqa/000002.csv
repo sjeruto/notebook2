@@ -1,0 +1,1 @@
+"0","ggplot(carPrice) + geom_boxplot(aes(y=Price,x=Type)) + facet_wrap(~Make)"

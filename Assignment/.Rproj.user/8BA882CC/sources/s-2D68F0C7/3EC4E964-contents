@@ -1,0 +1,16 @@
+### male: female deaths in Texas
+
+print(cdc_covid_deaths_tracked)
+
+Texas_female_deaths <- subset(cdc_covid_deaths_tracked, state == 'Texas' & gender == 'Female')
+Texas_male_deaths <- subset(cdc_covid_deaths_tracked, state == 'Texas' & gender == 'Male')
+
+Total_texas_female_deaths <- sum(Texas_female_deaths$deaths)
+Total_texas_male_deaths <- sum(Texas_male_deaths$deaths)
+
+Total_Texas_deaths <- Total_texas_female_deaths + Total_texas_male_deaths
+
+Female_proportion <-(Total_texas_female_deaths/Total_Texas_deaths) 
+                     
+ Male_proportion <-(Total_texas_male_deaths/Total_Texas_deaths)
+Ratio <- paste(Female_proportion,':',Male_proportion)

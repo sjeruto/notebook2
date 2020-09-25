@@ -1,0 +1,6 @@
+ -challenge 1
+ 
+library (tidyverse)
+library(readxl)
+ ggplot(carPrice) + geom_point(aes(y=Price,x=Mileage))
+ names(carPrice)
